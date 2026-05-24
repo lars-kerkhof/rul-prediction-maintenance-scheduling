@@ -4,6 +4,8 @@ Predicting **Remaining Useful Life (RUL)** of aircraft turbofan engines and sche
 their maintenance, by combining gradient-boosted regression with evolutionary
 optimization. Built on NASA's C-MAPSS run-to-failure dataset.
 
+Methodology, results and an explanation of the overall assigment are documented in assignmentreport.pdf
+
 ---
 
 ## Overview
