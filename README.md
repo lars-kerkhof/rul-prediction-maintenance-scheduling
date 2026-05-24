@@ -76,25 +76,7 @@ operational-setting columns.
 
 > Final metrics, tables, and figures are in [`report/report.pdf`](report/report.pdf).
 
----
 
-## Repository structure
-
-```
-turbofan-predictive-maintenance/
-├── README.md
-├── requirements.txt
-├── .gitignore
-├── notebooks/
-│   └── turbofan_rul_maintenance.ipynb   # full analysis: prediction + scheduling
-├── data/
-│   ├── DataTrain.csv                    # run-to-failure data
-│   └── DataSchedule.csv                 # in-service engines
-└── report/
-    └── report.pdf                       # written report
-```
-
----
 
 ## Getting started
 
@@ -120,23 +102,5 @@ jupyter notebook notebooks/turbofan_rul_maintenance.ipynb
 
 Python · pandas · NumPy · scikit-learn · XGBoost · DEAP · matplotlib · seaborn
 
----
-
-## References
-
-- Heimes, F. O. (2008). *Recurrent neural networks for remaining useful life estimation.*
-- Saxena, A., Goebel, K., Simon, D., & Eklund, N. (2008). *Damage propagation modeling for aircraft engine run-to-failure simulation.*
-- Chen, T., & Guestrin, C. (2016). *XGBoost: A scalable tree boosting system.*
-- Bergstra, J., & Bengio, Y. (2012). *Random search for hyper-parameter optimization.*
-- Zheng, S., et al. (2017). *Long short-term memory network for remaining useful life estimation.*
-
----
-
-## Authors
-
-- Lars Kerkhof
-- Ralf Geerts
-- Vera Beerepoot
-- Yvette Garretsen
 
 Developed for the JM0100 Prescriptive Analytics course.
